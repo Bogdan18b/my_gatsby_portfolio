@@ -1,0 +1,10 @@
+.Footer {
+  @include Flex(column);
+  &-icons {
+    @include Flex(row);
+    > a {
+      padding: 4px;
+      margin: 4px;
+    }
+  }
+}
